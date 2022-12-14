@@ -18,7 +18,7 @@ export const mockGetItems = jest.fn().mockReturnValue([]);
  * Mocking the GitRestClient
  */
 export class GitRestClient {
-    // tslint:disable-next-line: no-empty
+    /// tslint:disable-next-line: no-empty
     constructor(options: IVssRestClientOptions) {
     }
 
